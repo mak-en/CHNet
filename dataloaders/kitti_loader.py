@@ -18,7 +18,7 @@ def load_calib():
     """
     Temporarily hardcoding the calibration matrix using calib file from 2011_09_26
     """
-    calib = open("dataloaders/calib_cam_to_cam.txt", "r")
+    calib = open("CHNet/dataloaders/calib_cam_to_cam.txt", "r")
     lines = calib.readlines()
     P_rect_line = lines[25]
 
