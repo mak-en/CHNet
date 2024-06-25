@@ -164,7 +164,7 @@ files=(
 2011_10_03_drive_0058
 )
 
-basedir='../data/data_rgb/val/'
+basedir='data/data_rgb/val/'
 mkdir -p $basedir
 echo "Saving to "$basedir
 for i in ${files[@]}; do
